@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LSSC Worksite Compliance Record</title>
+
+<style>
+    *{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background:#f3f6f8;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height:100vh;
+        padding:20px;
+    }
+
+    .card{
+        width:100%;
+        max-width:750px;
+        background:#ffffff;
+        border-radius:20px;
+        box-shadow:0 20px 45px rgba(0,0,0,0.12);
+        padding:25px 22px;
+    }
+.header{
+    display:grid;
+    grid-template-columns: 80px 1fr 80px;
+    align-items:center;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.title-block{
+    text-align:center;
+}
+
+.title-block h1{
+    font-size:20px;
+    margin-bottom:6px;
+    font-weight:700;
+}
+
+.title-block p{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.logo{
+    width:70px;
+    height:auto;
+}
+
+.left-logo{
+    justify-self:start;
+}
+
+.right-logo{
+    justify-self:end;
+}
+   
+.row{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+    align-items: start;
+}
+
+.label{
+    color:#6b7280;
+}
+
+.value{
+    font-weight:600;
+    color:#111827;
+    word-break: break-word;
+}
+    
+
+    .footer{
+        text-align:center;
+        margin-top:22px;
+        font-size:13px;
+        color:#6b7280;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width:600px){
+        .row{
+            flex-direction:column;
+            align-items:flex-start;
+        }
+
+        .label, .value{
+            width:100%;
+            text-align:left;
+        }
+
+        .value{
+            margin-top:4px;
+        }
+        .header{
+        grid-template-columns: 60px 1fr 60px;
+    }
+
+    .logo{
+        width:55px;
+    }
+
+    .title-block h1{
+        font-size:16px;
+    }
+
+    .title-block p{
+        font-size:12px;
+    }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="header">
+    <img src="lagos-logo.png" alt="Lagos State Logo" class="logo left-logo">
+
+    <div class="title-block">
+        <h1>Lagos State Safety Commission</h1>
+        <p>Worksite Safety / Compliance Record</p>
+    </div>
+
+    <img src="lssc-logo.png" alt="LSSC Logo" class="logo right-logo">
+</div>
+   
+
+    <div class="row">
+        <div class="label">Name of Site</div>
+        <div class="value">BLOCK Q, PLOT 22, CHAPLIN COURT ESTATE, OGOMBO ROAD, LAGOS</div>
+    </div>
+
+    <div class="row">
+        <div class="label">Site Address</div>
+        <div class="value">BLOCK Q, PLOT 22, CHAPLIN COURT ESTATE, OGOMBO ROAD, LAGOS</div>
+    </div>
+
+    <div class="row">
+        <div class="label">Reference</div>
+        <div class="value">LGS/LSC/6162/VOL.XXVII/054</div>
+    </div>
+
+    <div class="row">
+        <div class="label">Date of Issue</div>
+        <div class="value">2026-03-17</div>
+    </div>
+
+    <div class="row">
+        <div class="label">Validity</div>
+        <div class="value">2026-03-17</div>
+    </div>
+
+    <div class="row">
+        <div class="label">Processed by</div>
+        <div class="value">H.C.C.</div>
+    </div>
+
+    <div class="row">
+        <div class="label">Site Contact</div>
+        <div class="value">07052520813</div>
+    </div>
+
+    <div class="row">
+        <div class="label">Phone No.</div>
+        <div class="value">07052520813</div>
+    </div>
+
+    <div class="footer">
+        ID: xkSCgqf9bCNKcqZg1irx
+    </div>
+</div>
+
+</body>
+</html>
